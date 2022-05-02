@@ -12,5 +12,3 @@ jobs:
       with:
         pattern: >
             _posts/*.md
-	asset_branch: >
-	    _md2zhihu/asset
