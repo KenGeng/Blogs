@@ -2,7 +2,7 @@
 
 *论文发表时间：2015 作者机构：谷歌 链接：[link](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43864.pdf)*
 ## TL;DR
-Google提出Dataflow模型来重新思考流计算领域中对大规模无界、不保证有序的数据的处理。核心思路是针对event time，厘清Window的语义(Fixed/Sliding/Sessions)与操作(Assignment/Merging)；针对processing time，定义不同的trigger策略(e.g. watermark)，以及处理同一window多个视图的策略(Discarding/Accumulating/Accumulating and Retracting)。文章中给出的例子非常详细，可以作为教材看了。
+Google提出Dataflow模型来重新思考流计算领域中对大规模无界、无序的数据的处理。核心思路是针对event time，厘清Window的语义(Fixed/Sliding/Sessions)与操作(Assignment/Merging)；针对processing time，定义不同的trigger策略(e.g. watermark)，以及处理同一window多个视图的策略(Discarding/Accumulating/Accumulating and Retracting)。文章中给出的例子非常详细，可以作为教材看了。
 
 ## 重要内容记录
 ### 论文贡献
